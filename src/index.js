@@ -1,7 +1,7 @@
-const app = new Vue({
-el: '#accessorials',
-data: {
-    project: ''
-} 
-})
+import accessorials from "../test.json";
 
+export default {
+data: () => ({
+    datos: accesorials 
+    })
+}

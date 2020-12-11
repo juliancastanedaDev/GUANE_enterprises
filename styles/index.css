@@ -4,8 +4,8 @@
     height: 500px;
     position: relative;
     top:30px;
-    left: 280px;
-    }
+    left: 190px;
+}
 
 #bloq_Pickup {
     background-color: white;
@@ -17,7 +17,7 @@
     border: solid 1px #9B9B97;
     border-radius: 15px;
     box-shadow: 0 7px 25px #9B9B97;
-    }
+}
 
 #bloq_Pickup hr {
     border: 0;
@@ -25,14 +25,14 @@
     height:0;
     margin-top: -12px;
     width: 400px;
-    }
+}
  
 #bloq_Pickup h1 {
     color: #4fa107;
     text-align:center;
     font-size: 20px;
     margin-top: 10px;
-    }
+}
  
 #bloq_Delivery {
     background-color: white;
@@ -44,14 +44,14 @@
     border: solid 1px #9B9B97;
     border-radius: 15px;
     box-shadow: 0 7px 25px #9B9B97;
-    }
+}
 
 #bloq_Delivery h1 {
     color:#D32F2F;
     text-align:center;
     font-size: 20px;
     margin-top: 10px;    
-    }
+}
 
 #bloq_Delivery hr {
     border: 0;
@@ -59,7 +59,7 @@
     height:0;
     margin-top: -12px;
     width: 400px;
-    }
+}
  
 #text_Zip_from {
     outline: none;
@@ -72,7 +72,7 @@
     background-color: #E5E8E8;
     margin-top: 10px;
     
-    }
+}
  
 #text_City_from {
     outline: none;
@@ -84,7 +84,7 @@
     background-color: #E5E8E8;
     margin-top: 10px;
     right:20px;
-    }
+}
     
 #text_Zip_to {
     outline: none;
@@ -96,7 +96,7 @@
     border-radius: 5px;
     background-color: #E5E8E8;
     margin-top: 10px;
-    }
+}
      
 #text_City_to {
     outline: none;
@@ -108,7 +108,7 @@
     background-color: #E5E8E8;
     margin-top: 10px;
     right:20px;
-    }
+}
 
 #img_pickup {
     background: #EDECEA;
@@ -136,7 +136,7 @@
     border: solid 1px #9B9B97;
     border-radius: 15px;
     box-shadow: 0 7px 25px #9B9B97;
-    }
+}
 
 #bloq_Accessorials hr {
     border: 0;
@@ -144,11 +144,91 @@
     height:0;
     margin-top: 5px;
     width: 900px;
-    }
+}
 
 #bloq_Accessorials h1 {
     color: black;
     text-align:center;
     font-size: 20px;
     margin-top: 15px;
-    }    
+}    
+
+.center {
+    width: 800px;
+    position: absolute;
+    text-align: center;
+    top: 70px;
+    left: 70px;
+}
+
+input[type=checkbox] {
+    -ms-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
+}
+
+.checkboxtext {
+    font-size: 75%;
+    display: inline;
+}
+
+#bloq_commodity {
+    position: absolute;
+    left: 1px;
+    width: 960px;
+    height: 160px;
+    top: 170px;
+    right:20px;
+    border: solid 1px #9B9B97;
+    border-radius: 15px;
+    box-shadow: 0 7px 25px #9B9B97;
+}
+#button {
+    background-color: #022737;
+    width: 960px;
+    height: 35px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.button_delete {
+    border: none;
+    color: #ffffff;
+    text-decoration: none;
+    position: absolute;
+    left: 15px;
+    width: 50px;
+    height: 20px;
+    top: 7px;
+    background-color: #4099BF;
+}
+
+.button_delete:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+
+.button_new_row {
+    border: none;
+    color: #ffffff;
+    text-decoration: none;
+    position: absolute;
+    left: 75px;
+    width: 90px;
+    height: 20px;
+    top: 7px;
+    background-color: #4099BF;
+}
+
+.button_new_row:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
+
+footer {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    height: 40px;
+    left: 550px;
+}

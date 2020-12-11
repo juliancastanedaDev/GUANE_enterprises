@@ -9,7 +9,6 @@
         <body>
             <div id="bloq_principal">
                 <div id="bloq_Pickup">
-                    <span class="dashicons dashicons-location-alt"></span>
                     <img id="img_pickup" alt="imagen_pickup" src="../images/img.png"><h1>Pickup</h1>
                     <hr>
                     <form id="text_1">
@@ -28,10 +27,103 @@
                     <div id="bloq_Accessorials">
                         <h1>Accessorials</h1>
                         <hr>
-                    </div>    
+                        <div class="center">
+                        <input type="checkbox" id="hazmat">
+                        <span class="checkboxtext">
+                            Hazmat
+                            </span>
+                        <input type="checkbox" id="bonded">
+                        <span class="checkboxtext">
+                            Bonded
+                            </span>
+                        <input type="checkbox" id="tarps">
+                        <span class="checkboxtext">
+                            Tarps
+                            </span>
+                        <input type="checkbox" id="airport_delivery_non_tsa">
+                        <span class="checkboxtext">
+                            Airport Delivery Non TSA
+                            </span>
+                        <input type="checkbox" id="airport_delivery_TSA">
+                        <span class="checkboxtext">
+                            Airport Delivery TSA
+                            </span>
+                        <input type="checkbox" id="oversize_overweight_permits">
+                        <span class="checkboxtext">
+                            Oversize/Overweight Permits
+                            </span>
+                        <input type="checkbox" id="escorts">
+                        <span class="checkboxtext">
+                            Escorts
+                            </span>
+                        <input type="checkbox" id="team_drivers">
+                        <span class="checkboxtext">
+                            Team Drivers      
+                            </span> 
+                        <input type="checkbox" id="non_stackkable">
+                        <span class="checkboxtext">
+                            Non Stackkable
+                            </span>
+                          </div>
+                          <div id="bloq_commodity">
+                              <div id="button">
+                                  <input class="button_delete" type="button" value="Delete" disabled>
+                                  <input class="button_new_row" type="button" value="Add new row" disabled>
+                              </div>
+                            <table class="egt">
+                                <tr>
+                                    <th scope="row">x</th>
+                                    <th>x</th>
+                                    <th>x</th>
+                                    <th>x</th>
+                                    <th>x</th>
+                                    <th>x</th>
+                                </tr>
+                                <tr>
+                                    <td>x</td>
+                                    <td>x</td>
+                                    <td>x</td>
+                                    <td>x</td>
+                                    <td>x</td>
+                                    <td>x</td>
+                                </tr>
+                                <tr>
+                                    <td>x</td>
+                                    <td>x</td>
+                                    <td>x</td>
+                                    <td>x</td>
+                                    <td>x</td>
+                                    <td>x</td>
+                                </tr>
+                                <tr>
+                                    <td>x</td>
+                                    <td>x</td>
+                                    <td>x</td>
+                                    <td>x</td>
+                                    <td>x</td>
+                                    <td>x</td>
+                                </tr>
+                                </table>     
+                          </div>
+                        </div>    
                 </div>        
-            <footer>Julian Castañeda</footer>
+            <footer>Julian Castañeda for GUANE-enterpraises</footer>
             <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
-            <script src="index.js"></script>
+            <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+            <script>
+                export default {
+                    data:() => ({
+                        option1: true,
+                        option2: true,
+                        option3: true,
+                        option4: true,
+                        option5: true,
+                        option6: true,
+                        option7: true,
+                        option8: true,
+                        option9: true
+                    })
+                }
+            </script>
         </body>
     </html>
