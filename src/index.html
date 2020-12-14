@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!---->
     <html lang = "es">
         <head>
             <title> GUANE-enterprises</title>
@@ -87,35 +88,30 @@
                             <table class="egt">
                                 <tr id="row_1">
                                     <th><input class="check_commodity" type="checkbox"></th>
-                                    <th class="hu_count">hu count</th>
-                                    <th class="dimensions">dimensions</th>
-                                    <th class="weight">weight</th>
+                                    <th class="hu_count">Hu count</th>
+                                    <th class="dimensions">Dimensions</th>
+                                    <th class="weight">Weight</th>
                                     <th class="commodity">Commodity</th>
-                                    <th class="stacable">stacable</th>
+                                    <th class="stacable">Stacable</th>
                                 </tr>
-                                <tr>
-                                    <td>x</td>
-                                    <td>x</td>
-                                    <td>x</td>
-                                    <td>x</td>
-                                    <td>x</td>
-                                    <td>x</td>
+                                <tr id="row_2">
+                                    <td><input class="check_row" type="checkbox"></td>
+                                    <td class="x_1">x</td>
+                                    <td class="x_2">x</td>
+                                    <td class="x_3">x</td>
+                                    <td class="x_4">x</td>
+                                    <td class="x_5"><div class="switch_container">
+                                        <input type="checkbox" id="switch"/>
+                                        <label for="switch" class="lbl"></label>
+                                    </div></td>
                                 </tr>
-                                <tr>
-                                    <td>x</td>
-                                    <td>x</td>
-                                    <td>x</td>
-                                    <td>x</td>
-                                    <td>x</td>
-                                    <td>x</td>
-                                </tr>
-                                <tr>
-                                    <td>Totals</td>
-                                    <td>x</td>
-                                    <td>x</td>
-                                    <td>x</td>
-                                    <td>x</td>
-                                    <td>x</td>
+                                <tr id="row_3">
+                                    <td class="tot">Totals</td>
+                                    <td class="tot_1">x</td>
+                                    <td class="tot_2">x</td>
+                                    <td class="tot_3">x</td>
+                                    <td class="tot_4">x</td>
+                                    <td class="tot_5">x</td>
                                 </tr>
                                 </table>     
                           </div>
@@ -124,7 +120,7 @@
             <footer>Julian Castañeda for GUANE-enterpraises</footer>
             <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.5.1/vue-resource.min.js"></script>
-            <script type="text/javascript">
+            <script>
                 var urlApi = 'https://tt.guane.com.co/openapi.json'; 
                 new Vue({
                     el: "#app",

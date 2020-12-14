@@ -275,9 +275,9 @@ footer {
 .check_commodity {
     color: #022737;
     position: absolute;
-    top: 40px;
+    top: 10px;
     left:55px;
-    font-size: 85%;
+    font-size: 95%;
     display: inline;
 }
 
@@ -312,6 +312,151 @@ footer {
 }
 
 #row_1 {
+    position: absolute;
+    width: 960px;
+    height: 40px;
     font-size: 100%;
-    background-color: green;
+    background-color: #D0D8DB ;
+    top: 35px;
+    left: 0px;
+}
+
+#row_2 {
+    position: absolute;
+    width: 960px;
+    height: 40px;
+    font-size: 100%;
+    background-color: white;
+    top: 75px;
+    left: 0px;
+}
+
+.check_row {
+    color: #022737;
+    position: absolute;
+    top: 10px;
+    left:55px;
+    font-size: 95%;
+    display: inline;
+}
+
+.x_1 {
+    color:#022737;
+    position: absolute;
+    left: 215px;
+}
+
+.x_2 {
+    color:#022737;
+    position: absolute;
+    left: 375px;
+}
+
+.x_3 {
+    color:#022737;
+    position: absolute;
+    left: 513px;
+}
+
+.x_4 {
+    color:#022737;
+    position: absolute;
+    left: 675px;
+}
+
+.x_5 {
+    color:#022737;
+    position: absolute;
+    left:795px;
+}
+
+.lbl {
+display: inline-block;
+position: absolute;
+width: 35px;
+height: 20px;
+background: #D0D8DB;
+border-radius: 100px;
+cursor: pointer;
+transition: .3s;
+left: 10px;
+}
+
+.lbl::after {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: white;
+    border-radius: 100px;
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    transition: .3s;
+}
+
+#switch:checked + .lbl::after {
+    left: 15px;
+}
+
+#switch:checked + .lbl {
+    background: blue;
+}
+
+#switch {
+    display: none;
+}
+
+#row_3 {
+    position: absolute;
+    width: 960px;
+    height: 45px;
+    font-size: 100%;
+    background-color: #D0D8DB ;
+    top: 115px;
+    left: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.tot {
+    color:#022737;
+    position: absolute;
+    left: 45px;
+    top: 10px;
+}
+
+.tot_1 {
+    color:#022737;
+    position: absolute;
+    left: 215px;
+    top: 10px;
+}
+
+.tot_2 {
+    color:#022737;
+    position: absolute;
+    left: 375px;
+    top: 10px;
+}
+
+.tot_3 {
+    color:#022737;
+    position: absolute;
+    left: 513px;
+    top: 10px;
+}
+
+.tot_4 {
+    color:#022737;
+    position: absolute;
+    left: 675px;
+    top: 10px;
+}
+
+.tot_5 {
+    color:#022737;
+    position: absolute;
+    left: 816px;
+    top: 10px;
 }
