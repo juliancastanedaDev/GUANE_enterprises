@@ -62,6 +62,7 @@
 }
  
 #text_Zip_from {
+    text-align:center;
     outline: none;
     position: absolute;
     left: 20px;
@@ -75,6 +76,7 @@
 }
  
 #text_City_from {
+    text-align:center;
     outline: none;
     position: absolute;
     width: 200px;
@@ -87,6 +89,7 @@
 }
     
 #text_Zip_to {
+    text-align:center;
     outline: none;
     position: absolute;
     left: 20px;
@@ -99,6 +102,7 @@
 }
      
 #text_City_to {
+    text-align:center;
     outline: none;
     position: absolute;
     width: 200px;
@@ -125,7 +129,7 @@
     left: 165px;
 }
 
-#bloq_Accessorials {
+#app_3 {
     background-color: white;
     left: 20px;
     width: 958px;
@@ -138,7 +142,7 @@
     box-shadow: 0 7px 25px #9B9B97;
 }
 
-#bloq_Accessorials hr {
+#app_3 hr {
     border: 0;
     border-top: 1px solid #BDBDBD; 
     height:0;
@@ -146,7 +150,7 @@
     width: 900px;
 }
 
-#bloq_Accessorials h1 {
+#app_3 p {
     color: black;
     text-align:center;
     font-size: 20px;
@@ -231,4 +235,83 @@ footer {
     width: 100%;
     height: 40px;
     left: 550px;
+}
+
+.zip_from {
+    position: absolute;
+    font-size: 15px;
+    left: 40px;
+    color:rgb(165, 161, 161)
+}
+
+.city_from {
+    position: absolute;
+    left: 250px;
+    font-size: 15px;
+    color:rgb(165, 161, 161)
+}
+
+.zip_to {
+    position: absolute;
+    font-size: 15px;
+    left: 40px;
+    color:rgb(165, 161, 161)
+}
+
+.city_to {
+    position: absolute;
+    left: 250px;
+    font-size: 15px;
+    color:rgb(165, 161, 161)
+}
+
+#app_2 h3 {
+    color:#D32F2F;
+    text-align:center;
+    font-size: 20px;
+    margin-top: 10px;  
+}
+
+.check_commodity {
+    color: #022737;
+    position: absolute;
+    top: 40px;
+    left:55px;
+    font-size: 85%;
+    display: inline;
+}
+
+.hu_count {
+    color:#022737;
+    position: absolute;
+    left: 195px;
+}
+
+.dimensions {
+    color:#022737;
+    position: absolute;
+    left: 345px;
+}
+
+.weight {
+    color:#022737;
+    position: absolute;
+    left: 495px;
+}
+
+.commodity {
+    color:#022737;
+    position: absolute;
+    left: 645px;
+}
+
+.stacable {
+    color:#022737;
+    position: absolute;
+    left:795px;
+}
+
+#row_1 {
+    font-size: 100%;
+    background-color: green;
 }
